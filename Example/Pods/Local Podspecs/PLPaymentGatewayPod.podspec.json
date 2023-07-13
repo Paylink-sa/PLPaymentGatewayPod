@@ -1,0 +1,22 @@
+{
+  "name": "PLPaymentGatewayPod",
+  "version": "0.1.0",
+  "summary": "A short description of PLPaymentGatewayPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hasanayoub/PLPaymentGatewayPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hasanayoub": "hassan.ayoub.1980@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hasanayoub/PLPaymentGatewayPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PLPaymentGatewayPod/Classes/**/*"
+}

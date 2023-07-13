@@ -1,0 +1,6 @@
+framework module PLPaymentGatewayPod {
+  umbrella header "PLPaymentGatewayPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

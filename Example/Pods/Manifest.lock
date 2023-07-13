@@ -1,0 +1,16 @@
+PODS:
+  - PLPaymentGatewayPod (0.1.0)
+
+DEPENDENCIES:
+  - PLPaymentGatewayPod (from `../`)
+
+EXTERNAL SOURCES:
+  PLPaymentGatewayPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PLPaymentGatewayPod: 0b82dbf26bcd5b984317e0f75c032ac5f3c35882
+
+PODFILE CHECKSUM: c68022491f01ed007f18487ffc6f6e6184a8c7c0
+
+COCOAPODS: 1.12.1
