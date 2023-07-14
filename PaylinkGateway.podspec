@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "PaylinkGateway"
-    s.version      = "1.0.5"
+    s.version      = "1.0.6"
     s.summary      = "Payment gateway for Paylink for iOS devices."
     s.description  = <<-DESC
     An extended description of PaylinkGateway project.
