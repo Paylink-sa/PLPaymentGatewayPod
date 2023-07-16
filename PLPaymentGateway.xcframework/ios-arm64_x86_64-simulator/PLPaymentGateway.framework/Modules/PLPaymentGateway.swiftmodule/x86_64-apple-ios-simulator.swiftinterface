@@ -47,15 +47,16 @@ public class PaylinkGateway {
     }
   }
   public init()
+  public init(paymentFormUrl: Swift.String = "", platform: Swift.String = "")
+  public init(environment: PLPaymentGateway.PaylinkGateway.Environment, paymentFormUrl: Swift.String = "", platform: Swift.String = "")
+  public init(apiId: Swift.String, secretKey: Swift.String, environment: PLPaymentGateway.PaylinkGateway.Environment, paymentFormUrl: Swift.String, platform: Swift.String)
   public init(apiId: Swift.String, secretKey: Swift.String, environment: PLPaymentGateway.PaylinkGateway.Environment)
+  public func openPaymentForm(transactionNo: Swift.String, from viewController: UIKit.UIViewController, completion: ((Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>) -> Swift.Void)?, loaded: @escaping () -> Swift.Void)
+  public func getPaymentFormView(transactionNo: Swift.String, completion: @escaping (_ orderNumber: Swift.String, _ transactionNo: Swift.String) -> Swift.Void) -> PLPaymentGateway.PLInvoiceWebView
   public func openInvoiceURL(url: Foundation.URL, from viewController: UIKit.UIViewController, clientName: Swift.String, clientMobile: Swift.String, width: Swift.Int = -1, bgColor: Swift.String = "FFF", topSpace: Swift.Int = 25, textColor: Swift.String = "000", buttonTextColor: Swift.String = "FFF", mainColor: Swift.String = "3087de", completion: ((Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>) -> Swift.Void)?, loaded: @escaping () -> Swift.Void)
   public func getInvoiceURLView(url: Swift.String, clientName: Swift.String, clientMobile: Swift.String, lang: Swift.String = "en", width: Swift.Int = -1, bgColor: Swift.String = "FFF", topSpace: Swift.Int = 25, textColor: Swift.String = "000", buttonTextColor: Swift.String = "FFF", mainColor: Swift.String = "3087de", completion: @escaping (_ orderNumber: Swift.String, _ transactionNo: Swift.String) -> Swift.Void) -> PLPaymentGateway.PLInvoiceWebView
-  @available(*, deprecated, message: "Use the auth from the server side (https://paylinksa.readme.io/docs/authentication)")
   public func auth(completion: @escaping (Swift.Result<Swift.String, Swift.Error>) -> Swift.Void)
-  @available(*, deprecated, message: "Use the addInvoice from the server side and then pass the transactionNo of the generated invoice to the method submitInvoice (https://paylinksa.readme.io/docs/invoices)")
   public func addInvoice(idToken: Swift.String, customerName: Swift.String, customerMobile: Swift.String, amount: Swift.Double, currency: Swift.String, note: Swift.String, orderNumber: Swift.String, products: [PLPaymentGateway.PLProduct], completion: @escaping (Swift.Result<Swift.Dictionary<Swift.String, Any>, Swift.Error>) -> Swift.Void)
-  public func submitInvoice(transactionNo: Swift.String, completion: @escaping (Swift.Result<Swift.Dictionary<Swift.String, Any>, Swift.Error>) -> Swift.Void)
-  @available(*, deprecated, message: "Use the addInvoice from the server side and then pass the transactionNo of the generated invoice to the method submitInvoice (https://paylinksa.readme.io/docs/invoices)")
   public func showInvoice(idToken: Swift.String, customerName: Swift.String, customerMobile: Swift.String, amount: Swift.Double, currency: Swift.String, note: Swift.String, orderNumber: Swift.String, products: [PLPaymentGateway.PLProduct], completion: @escaping (Swift.Result<Swift.Dictionary<Swift.String, Any>, Swift.Error>) -> Swift.Void)
   @objc deinit
 }
