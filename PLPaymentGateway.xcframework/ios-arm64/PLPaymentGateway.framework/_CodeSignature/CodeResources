@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		KifeSrQWNQNjxjHndCj3oSb0uRI=
+		yqhdCfMxnKgNDp76faZQxxysqOI=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		q46Pfi2ygYjE1wMx+SnyasUo1G4=
+		oiLvoEVV0LhZHVTD8bLzEReHOKw=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		q46Pfi2ygYjE1wMx+SnyasUo1G4=
+		oiLvoEVV0LhZHVTD8bLzEReHOKw=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wo5OkOx04V4wprmq1EGvxwkLMdk=
+		XxpfDhD1eljX+Qq8XyFYDIaUMd8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V8FN0YhJCEVwe52MCaG8iMe/8EWsTKfC2lJpGO/AoOY=
+			AAuSDdxY3vrhq7WZb73MH3cRvOkGGNaSP/wTihM1S74=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7CcihFiBabGnEd7M3DcpKsI3SdIz6XIxWyT251Jdaw=
+			//+zK7ksV9fx9p9p9Q7IUTzwRLNS18gZ0fCYgb7XV28=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -110,14 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7CcihFiBabGnEd7M3DcpKsI3SdIz6XIxWyT251Jdaw=
+			//+zK7ksV9fx9p9p9Q7IUTzwRLNS18gZ0fCYgb7XV28=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t29uZUibEpgmEelR24M//umllCEdVs0MaGcIiI3uugw=
+			79fSUcz2KwuyEkGOGEe4+3OmzMdx/D7SAb3H9o4onwU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
