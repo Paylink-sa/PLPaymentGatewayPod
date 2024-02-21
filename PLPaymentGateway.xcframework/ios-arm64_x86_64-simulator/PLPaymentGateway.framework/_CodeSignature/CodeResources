@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yXdkaCiHDvA6pniQy1yfW/lRi/I=
+		kEOulkwPggf9rncJiVhu2YupAjw=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yXdkaCiHDvA6pniQy1yfW/lRi/I=
+		kEOulkwPggf9rncJiVhu2YupAjw=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jbqS7lVISFQ0F1Qoo8vcqz49ejGEulTFEGBPMJ+o+LI=
+			I04KcahSonDvkCOddTNYIN/6Ag1EITrhC3qyRyTcznU=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jbqS7lVISFQ0F1Qoo8vcqz49ejGEulTFEGBPMJ+o+LI=
+			I04KcahSonDvkCOddTNYIN/6Ag1EITrhC3qyRyTcznU=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
