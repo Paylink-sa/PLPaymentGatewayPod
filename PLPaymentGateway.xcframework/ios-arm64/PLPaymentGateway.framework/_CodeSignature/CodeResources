@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PLPaymentGateway-Swift.h</key>
 		<data>
-		4BCL7mQvd9PoNkHFmY8pNsCTVdM=
+		LVQDXSuAFKLATAaDeRaHEromsGQ=
 		</data>
 		<key>Headers/PLPaymentGateway.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TEn6qzufft5PELMxcUQ2t+2o6KM=
+		qnziOz4RvfUPCXppCj/VNPPrpIA=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LkdiKGI1f2sZKx+liQtVeOH319c=
+		yXdkaCiHDvA6pniQy1yfW/lRi/I=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		oiLvoEVV0LhZHVTD8bLzEReHOKw=
+		Bu4+fhqPnKsNmyHXGeYYvLNvZ3g=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		DgaRb17LHpr1VyH/Bw5RMRiZza4=
+		lfvjO/p33ivce4bzdSmHQ2k3VXc=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oiLvoEVV0LhZHVTD8bLzEReHOKw=
+		Bu4+fhqPnKsNmyHXGeYYvLNvZ3g=
 		</data>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XxpfDhD1eljX+Qq8XyFYDIaUMd8=
+		PAay1S3Xp5qKgiTYtDp5TdE5nDo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		NAdXAeotNgocEtA1C1qO6Sb19M0=
+		eLPHjsVdES/Nljx8YcJQbOFPKB0=
 		</data>
 		<key>PaymentForm.html</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6YVeWf2dNHiDCf4LuSKpHJVeTsFvBpmOEKP5qCDQevU=
+			qShmdnIIOL7IYISWC0rIRz5WdgmOHDAxT+3x6jGhyqI=
 			</data>
 		</dict>
 		<key>Headers/PLPaymentGateway.h</key>
@@ -89,42 +89,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K5EeKb4XOuhOC+XCG69CcRopM0cxAwpPYxJ+0exL2EQ=
+			jbqS7lVISFQ0F1Qoo8vcqz49ejGEulTFEGBPMJ+o+LI=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			//+zK7ksV9fx9p9p9Q7IUTzwRLNS18gZ0fCYgb7XV28=
+			NC7/9HzWhNJGWhpSvIqUEVq3XyGojaOy2EwV4zrs6Go=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tl8IOoNwA96EhUhuRYzUnihIlcpyuTZctm5NUbOFx0M=
+			67pnmOH+a4pBcLQH10PlYYUGNzVaKdyxjSL1uDPFKOM=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			//+zK7ksV9fx9p9p9Q7IUTzwRLNS18gZ0fCYgb7XV28=
+			NC7/9HzWhNJGWhpSvIqUEVq3XyGojaOy2EwV4zrs6Go=
 			</data>
 		</dict>
 		<key>Modules/PLPaymentGateway.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			79fSUcz2KwuyEkGOGEe4+3OmzMdx/D7SAb3H9o4onwU=
+			Sh5s2ZdvHVFAyWuoqEok3q4bKsztIqyNOxWoPzenOK8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ETnFr2QhPlqX10RxWDpa3mbjm88NbM6LRAaW7xP5UiI=
+			YMxwTTPY+yqp/rPbKlxY1yfXopg0+Y9Bu8XZiPd11BM=
 			</data>
 		</dict>
 		<key>PaymentForm.html</key>

@@ -147,8 +147,7 @@
             "moduleName": "PLPaymentGateway",
             "declAttributes": [
               "Custom",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -656,6 +655,102 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "PLPaymentGateway",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+            "moduleName": "PLPaymentGateway",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
@@ -709,106 +804,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:didFinish:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "WebKit.WKNavigation?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKNavigation",
-                    "printedName": "WebKit.WKNavigation",
-                    "usr": "c:objc(cs)WKNavigation"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)webView:didFinishNavigation:",
-            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
-            "moduleName": "PLPaymentGateway",
-            "objc_name": "webView:didFinishNavigation:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKNavigationAction",
-                "printedName": "WebKit.WKNavigationAction",
-                "usr": "c:objc(cs)WKNavigationAction"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKNavigationActionPolicy",
-                    "printedName": "WebKit.WKNavigationActionPolicy",
-                    "usr": "c:@E@WKNavigationActionPolicy"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
-            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
-            "moduleName": "PLPaymentGateway",
-            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -876,6 +871,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -2984,310 +2986,1857 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "IntegerLiteral",
       "offset": 462,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "StringLiteral",
       "offset": 495,
       "length": 5,
       "value": "\"000\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "StringLiteral",
       "offset": 536,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 8,
       "value": "\"3087de\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1395,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4634,
+      "offset": 1534,
+      "length": 21,
+      "value": "\"Done removing cache\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1750,
+      "length": 35,
+      "value": "\"URL is: \""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1774,
+      "length": 9,
+      "value": "\"Nothing\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1784,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2577,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2743,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3316,
+      "length": 18,
+      "value": "\"plpaymentgateway\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3367,
+      "length": 16,
+      "value": "\"transactionNo=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3416,
+      "length": 14,
+      "value": "\"orderNumber=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3472,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3509,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3924,
+      "length": 13,
+      "value": "\"orderNumber\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4048,
+      "length": 15,
+      "value": "\"transactionNo\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1979,
       "length": 11,
       "value": "\"PLPaymentGateway.Coordinator\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1997,
+      "length": 18,
+      "value": "\"plpaymentgateway\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2048,
+      "length": 16,
+      "value": "\"transactionNo=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2097,
+      "length": 14,
+      "value": "\"orderNumber=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2161,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2194,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2581,
+      "length": 13,
+      "value": "\"orderNumber\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 15,
+      "value": "\"transactionNo\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2983,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 26,
       "value": "\"PLPaymentGateway.PLInvoiceWebViewController\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 32,
+      "value": "\"https:\/\/paylinkapi.eu.ngrok.io\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 23,
+      "value": "\"http:\/\/localhost:8085\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 30,
+      "value": "\"https:\/\/restpilot.paylink.sa\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 686,
+      "length": 28,
+      "value": "\"https:\/\/restapi.paylink.sa\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 32,
+      "value": "\"https:\/\/paylinkpay.eu.ngrok.io\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 23,
+      "value": "\"http:\/\/localhost:4200\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 33,
+      "value": "\"https:\/\/paymentpilot.paylink.sa\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 28,
+      "value": "\"https:\/\/payment.paylink.sa\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1726,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1753,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 1809,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 1833,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1988,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 2017,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 2236,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 2260,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 2375,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 2404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 3340,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 3367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 3793,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 3847,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 3902,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 3956,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 4012,
       "length": 5,
       "value": "\"000\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 4077,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 4136,
       "length": 8,
       "value": "\"3087de\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4367,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4386,
+      "length": 1,
+      "value": "\"\/pay\/info\/\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4412,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4446,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4474,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4528,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4550,
+      "length": 207,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4569,
+      "length": 1,
+      "value": "\"\/pay\/frame\/\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4596,
+      "length": 1,
+      "value": "\"?lang=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4609,
+      "length": 1,
+      "value": "\"&platform=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4631,
+      "length": 1,
+      "value": "\"&transactionNo=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4662,
+      "length": 1,
+      "value": "\"&w=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4673,
+      "length": 1,
+      "value": "\"&pc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4687,
+      "length": 1,
+      "value": "\"&ts=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4702,
+      "length": 1,
+      "value": "\"&tc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4718,
+      "length": 1,
+      "value": "\"&bt=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4740,
+      "length": 1,
+      "value": "\"&mc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4756,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4792,
+      "length": 55,
+      "value": "\"?platform=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4815,
+      "length": 1,
+      "value": "\"&transactionNo=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4846,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5048,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 5397,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 5454,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 5512,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 5569,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 5628,
       "length": 5,
       "value": "\"000\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 5696,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 5758,
       "length": 8,
       "value": "\"3087de\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6002,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6021,
+      "length": 1,
+      "value": "\"\/pay\/info\/\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6047,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6081,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6109,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6185,
+      "length": 207,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6204,
+      "length": 1,
+      "value": "\"\/pay\/frame\/\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6231,
+      "length": 1,
+      "value": "\"?lang=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6244,
+      "length": 1,
+      "value": "\"&platform=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6266,
+      "length": 1,
+      "value": "\"&transactionNo=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6297,
+      "length": 1,
+      "value": "\"&w=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6308,
+      "length": 1,
+      "value": "\"&pc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6322,
+      "length": 1,
+      "value": "\"&ts=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6337,
+      "length": 1,
+      "value": "\"&tc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6353,
+      "length": 1,
+      "value": "\"&bt=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6375,
+      "length": 1,
+      "value": "\"&mc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6391,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6427,
+      "length": 55,
+      "value": "\"?platform=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6450,
+      "length": 1,
+      "value": "\"&transactionNo=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6481,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6592,
+      "length": 6,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6597,
+      "length": 32,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 6628,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 7164,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 7215,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 7270,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 7324,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 7379,
       "length": 5,
       "value": "\"000\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 7443,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 7501,
       "length": 8,
       "value": "\"3087de\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7725,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7764,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7793,
+      "length": 160,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7815,
+      "length": 1,
+      "value": "\"?w=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7822,
+      "length": 1,
+      "value": "\"&pc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7836,
+      "length": 1,
+      "value": "\"&n=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7852,
+      "length": 1,
+      "value": "\"&m=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7870,
+      "length": 1,
+      "value": "\"&ts=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7885,
+      "length": 1,
+      "value": "\"&tc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7901,
+      "length": 1,
+      "value": "\"&bt=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7923,
+      "length": 1,
+      "value": "\"&mc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7939,
+      "length": 1,
+      "value": "\"&lang=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7952,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 8763,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 8816,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 8871,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "IntegerLiteral",
       "offset": 8928,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 8987,
       "length": 5,
       "value": "\"000\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 9054,
       "length": 5,
       "value": "\"FFF\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "StringLiteral",
       "offset": 9115,
       "length": 8,
       "value": "\"3087de\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9290,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9329,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9424,
+      "length": 146,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9431,
+      "length": 1,
+      "value": "\"?w=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9438,
+      "length": 1,
+      "value": "\"&pc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9452,
+      "length": 1,
+      "value": "\"&lang=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9465,
+      "length": 1,
+      "value": "\"&n=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9481,
+      "length": 1,
+      "value": "\"&m=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9499,
+      "length": 2,
+      "value": "\"&&ts=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9515,
+      "length": 1,
+      "value": "\"&tc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9531,
+      "length": 1,
+      "value": "\"&bt=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9553,
+      "length": 1,
+      "value": "\"&mc=\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9569,
+      "length": 71,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9996,
+      "length": 11,
+      "value": "\"\/api\/auth\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 10081,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 10113,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 10153,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 10206,
+      "length": 7,
+      "value": "\"apiId\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 10227,
+      "length": 11,
+      "value": "\"secretKey\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 10256,
+      "length": 14,
+      "value": "\"persistToken\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 10272,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10774,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10780,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "Array",
+      "offset": 11197,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 11257,
+      "length": 10,
+      "value": "\"id_token\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12106,
+      "length": 17,
+      "value": "\"\/api\/addInvoice\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12219,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12284,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12330,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12370,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12461,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12495,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12533,
+      "length": 13,
+      "value": "\"callBackUrl\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12548,
+      "length": 29,
+      "value": "\"plpaymentgateway:\/\/callback\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12595,
+      "length": 14,
+      "value": "\"clientMobile\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12643,
+      "length": 12,
+      "value": "\"clientName\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12687,
+      "length": 6,
+      "value": "\"note\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12717,
+      "length": 13,
+      "value": "\"orderNumber\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12761,
+      "length": 10,
+      "value": "\"products\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12822,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12848,
+      "length": 5,
+      "value": "\"qty\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12870,
+      "length": 7,
+      "value": "\"price\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12896,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 12933,
+      "length": 10,
+      "value": "\"imageSrc\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13644,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13650,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "Array",
+      "offset": 14115,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 14214,
+      "length": 11,
+      "value": "\"mobileUrl\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 14310,
+      "length": 15,
+      "value": "\"transactionNo\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 14512,
+      "length": 12,
+      "value": "\"invoiceUrl\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 14538,
+      "length": 13,
+      "value": "\"orderNumber\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15346,
+      "length": 17,
+      "value": "\"\/api\/addInvoice\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15459,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15524,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15570,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15610,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15701,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15735,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15773,
+      "length": 13,
+      "value": "\"callBackUrl\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15788,
+      "length": 29,
+      "value": "\"plpaymentgateway:\/\/callback\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15835,
+      "length": 14,
+      "value": "\"clientMobile\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15883,
+      "length": 12,
+      "value": "\"clientName\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15927,
+      "length": 6,
+      "value": "\"note\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 15957,
+      "length": 13,
+      "value": "\"orderNumber\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 16001,
+      "length": 10,
+      "value": "\"products\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 16062,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 16088,
+      "length": 5,
+      "value": "\"qty\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 16110,
+      "length": 7,
+      "value": "\"price\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 16136,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 16173,
+      "length": 10,
+      "value": "\"imageSrc\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16884,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16890,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "Array",
+      "offset": 17355,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 17454,
+      "length": 11,
+      "value": "\"mobileUrl\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 17550,
+      "length": 15,
+      "value": "\"transactionNo\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 17752,
+      "length": 12,
+      "value": "\"invoiceUrl\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 17778,
+      "length": 13,
+      "value": "\"orderNumber\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18080,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18092,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 18097,
+      "length": 23,
+      "value": "\"Invalid red component\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18160,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 18165,
+      "length": 25,
+      "value": "\"Invalid green component\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18228,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 18233,
+      "length": 24,
+      "value": "\"Invalid blue component\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18306,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18337,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18366,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18380,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
       "kind": "FloatLiteral",
       "offset": 18453,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLProduct.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18489,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18584,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18597,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18603,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18647,
+      "length": 6,
+      "value": "0xFF00"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18658,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18663,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18705,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18713,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18875,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18881,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18914,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18919,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18949,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLOrder.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLOrder.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLOrder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 850,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLOrder.swift",
+      "kind": "StringLiteral",
+      "offset": 876,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLOrder.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLOrder.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLOrder.swift",
+      "kind": "Array",
+      "offset": 956,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLProduct.swift",
       "kind": "StringLiteral",
       "offset": 349,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLProduct.swift",
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLProduct.swift",
       "kind": "StringLiteral",
       "offset": 372,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLProduct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1098,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLProduct.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/Sources\/PLPaymentGateway\/PLProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
       "length": 2,
       "value": "\"\""
     }

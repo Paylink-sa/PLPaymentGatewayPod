@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
     s.name         = "PaylinkGateway"
-    s.version      = "1.1.0"
+    s.version      = "1.1.1"
     s.summary      = "Payment gateway for Paylink for iOS devices."
     s.description  = <<-DESC
     An extended description of PaylinkGateway project.
     DESC
     s.homepage     = "https://paylink.sa"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
-                   Copyright 2023
+                   Copyright 2024
                    Permission is granted to Paylink
                   LICENSE
                 }
